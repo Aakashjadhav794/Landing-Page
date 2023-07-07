@@ -1,0 +1,57 @@
+body{
+  background-image: url(workspace-1280538_1920.jpg);
+  color: aliceblue;
+}
+.nav{
+  display: flex;
+}
+.navbar{
+  display: flex;
+  padding: 15px -3px;
+  margin: 10px 10px;
+}
+li{
+  list-style: none;
+  padding: 10px 25px;
+}
+li a{
+  font-family: 'Belanosima', sans-serif;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 20px;
+}
+li a:hover{
+  background-color: transparent;
+  color: rgb(238, 126, 255);
+  text-decoration: underline;
+}
+li.active{
+  text-decoration: underline;
+}
+section{
+  display: flex;
+  flex-direction: column;
+  height: 350px;
+  margin: 70px 230px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+h1{
+  font-family: 'Ysabeau SC', sans-serif;
+  font-size: 3.5em;
+  margin: 60px 10px;
+}
+h2{
+  font-family: 'Ysabeau Infant', sans-serif;
+  margin: -8px 10px;
+}
+p{
+  font-family: 'Oxygen', sans-serif;
+  font-size: 16px;
+}
+footer{
+  font-family: 'Oxygen', sans-serif;
+  font-size: 16px;
+  padding: 90px 0px;
+}
